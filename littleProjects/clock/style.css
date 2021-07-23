@@ -1,0 +1,78 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+*{
+    margin: 0;
+    padding: 0;
+
+  }
+  html,body{
+    display: grid;
+    place-items: center;
+    background-color: #33415c;
+    
+
+  }
+  #dayIntro
+{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 7px solid #001845;
+    border-radius: 20%  20% 10%;
+    margin: 20px;
+    font-family: 'chalkduster', Times, serif;
+    padding: 15px;
+    background: linear-gradient(130deg, #001845,rgb(173, 227, 229));
+    color: #F20505;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 5px #fff,
+    0 0 62px #ccdbfd,
+    0 0 82px #ccdbfd,
+    0 0 92px #ccdbfd,
+    0 0 102px #ccdbfd,
+    0 0 151px #ccdbfd;
+    margin-top: 20vh;
+}
+  .container{
+    height: 120px;
+    width: 550px;
+    position: relative;
+   margin-top: 25vh;
+    background: linear-gradient(135deg, #3DBFF2, #F23535, #30BF97);
+    border-radius: 10px;
+    cursor: default;
+
+  }
+  .container .dispClock,
+  .container {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px double silver ;
+  }
+  .container .dispClock{
+    top: 50%;
+    height: 105px;
+    width: 535px;
+    background: linear-gradient(147deg, #262626 5%,#7B848C 8%, #2c3e50 44%);
+    border-radius: 6px;
+    text-align: center;
+    
+    
+  }
+  .dispClock #time{
+    line-height: 85px; 
+    font-size: 72px;
+    font-weight: 100;
+    margin: 5px;
+    
+    letter-spacing: 1px;
+    font-family: 'Chalkduster', Regular;
+    background: linear-gradient(135deg, #3DBFF2, #F2E30F,#DFE7F2,#ff00e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
